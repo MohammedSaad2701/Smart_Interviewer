@@ -15,7 +15,7 @@ export default function Register({ onAuthSuccess, switchToLogin }) {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://smart-interviewer-8.onrender.com/register",
+        "https://smart-interviewer-8.onrender.com/api/register",
         { name, email, password }
       );
       if (res.data && res.data.user) {
