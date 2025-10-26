@@ -12,7 +12,7 @@ export default function Login({ onAuthSuccess, switchToRegister }) {
     if (!email || !password) return setError('Please provide email and password');
     setLoading(true);
     try {
-      const res = await fetch('https://smart-interviewer-8.onrender.com/auth/login', {
+      const res = await fetch('https://smart-interviewer-8.onrender.com/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
