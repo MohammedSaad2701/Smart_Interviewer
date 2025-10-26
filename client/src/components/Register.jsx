@@ -14,7 +14,7 @@ export default function Register({ onAuthSuccess, switchToLogin }) {
     if (!name || !email || !password) return setError("Please fill all fields");
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:8000/api/auth/register", {
+      const res = await axios.post("https://smart-interviewer-8.onrender.com", {
         name,
         email,
         password,
