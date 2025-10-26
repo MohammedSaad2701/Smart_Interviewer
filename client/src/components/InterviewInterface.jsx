@@ -116,7 +116,7 @@ export default function InterviewInterface({ topic, onComplete }) {
 
   // 3) server fallback (existing behavior)
   try {
-    const createRes = await axios.post('http://localhost:8000/api/sessions/create', {
+    const createRes = await axios.post('https://smart-interviewer-8.onrender.com//api/sessions/create', {
       topicId: topic?.id || topic?._id,
       candidateId: null,
     });
@@ -124,7 +124,7 @@ export default function InterviewInterface({ topic, onComplete }) {
     const sid = session?._id || session?.id;
     setSessionId(sid);
 
-    const s = await axios.get(`http://localhost:8000/api/sessions/${sid}`);
+    const s = await axios.get(`https://smart-interviewer-8.onrender.com/api/sessions/${sid}`);
     const sessionData = s.data || {};
     const raw = sessionData.session?.questions || [];
 
