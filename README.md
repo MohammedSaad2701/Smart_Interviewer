@@ -1,29 +1,30 @@
-# 🧠 Smart Interviewer
+# Smart Interviewer
 
 **Smart Interviewer** is a web-based platform that helps users prepare for interviews by providing topic-wise technical questions in an interactive and user-friendly interface.  
 It allows users to register, log in, choose a topic, and practice questions—making interview preparation smarter and more personalized.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-🌐 **Frontend:** https://smart-interviewer-1cgi.vercel.app/
-🛠️ **Backend API:** https://smart-interviewer-8.onrender.com/api
+**Frontend:** https://smart-interviewer-1cgi.vercel.app/
 
----
-
-## 🧩 Features
-
-- 🧾 **User Authentication** (Register & Login)
-- 🧠 **Topic-wise Question Practice**
-- ⏳ **Progress Tracking**
-- 💡 **Simple and Responsive UI (React + Tailwind)**
-- ⚙️ **REST API built with Express & MongoDB**
-- ☁️ **Deployed on Vercel and Render**
+**Backend API:** https://smart-interviewer-8.onrender.com/api
 
 ---
 
-## 🛠️ Tech Stack
+## Features
+
+- **User Authentication** (Register & Login)
+- **Topic-wise Question Practice**
+- **Progress Tracking**
+- **Simple and Responsive UI (React + Tailwind)**
+- **REST API built with Express & MongoDB**
+- **Deployed on Vercel and Render**
+
+---
+
+## Tech Stack
 
 **Frontend:**  
 - React.js  
