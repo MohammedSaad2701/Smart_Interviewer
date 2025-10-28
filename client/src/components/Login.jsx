@@ -52,7 +52,7 @@ return (
       {/* 🧠 Login Form */}
       <div className="flex justify-center items-center h-[calc(100vh-80px)]">
         <div className="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-md">
-          <h2 className="text-2xl font-semibold mb-6 text-center">Welcome bac</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-center">Welcome back</h2>
 
           <form onSubmit={handleSubmit}>
             <input
